@@ -1,9 +1,9 @@
-a, b, c = map(int, input())
+a = int(input())
 
-s = a*100+b*10+c
-print(a+b+c, s)
-
-
+if a<0:
+    print('+')
+else:
+    print('-')
 
 
 
