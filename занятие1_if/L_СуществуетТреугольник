@@ -1,0 +1,7 @@
+a = int(input())
+b = int(input())
+v = int(input())
+if v > (a + b) or b > (a + v) or a > (v + b):
+    print('NO')
+else:
+    print('YES')
