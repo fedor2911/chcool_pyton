@@ -1,0 +1,9 @@
+a, b, c = map(int,input().split())
+if a == b == c:
+    print('Impossible')
+elif a+2 == b+1 == c:
+    print('Straight')
+elif a == b or a == c or c == b:
+    print('One Pair')
+else:
+    print('Nothing')
