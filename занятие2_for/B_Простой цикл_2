@@ -1,0 +1,4 @@
+for i in range(5,14):
+    if i != 6:
+        if i != 12:
+            print(i, end=" ")
