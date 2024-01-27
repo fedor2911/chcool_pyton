@@ -1,0 +1,14 @@
+a, b = map(int,input().split())
+p = 0
+f = 0
+for i in range(a+1, b):
+    if i%2==0:
+        p += i
+    else:
+        f +=i
+if p > f:
+    print('Diana')
+elif p == f:
+    print('equal')
+else:
+    print('Matvei')

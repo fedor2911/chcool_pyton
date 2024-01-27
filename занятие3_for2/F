@@ -1,0 +1,11 @@
+a, b = map(int,input().split())
+d = 1
+for i in range(a, b+1):
+    if i %13==0:
+        print('Yes')
+        d = 0
+        break
+    else:
+        d = 2
+if d == 2:
+    print('No')

@@ -1,0 +1,9 @@
+a, b = map(int,input().split())
+list = []
+for i in range(a, b+1):
+    if i %23==0:
+        if i%2==1:
+            list.append(i)
+ 
+if len(list)!= 0:
+    print(max(list))

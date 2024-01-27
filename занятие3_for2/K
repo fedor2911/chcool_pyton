@@ -1,0 +1,19 @@
+a, b=map(int,input().split())
+n, m=map(int,input().split())
+d=0
+s=0
+for i in range(a,b+1):
+    if i%n==0:
+        d=1
+        break
+for i in range(a,b+1):
+    if i%m==0:
+        s=1
+if d == s == 1:
+    print('Yes Yes ')
+elif d==s==0:
+    print('No No ')
+elif d==1 and s==0:
+    print('Yes No ')
+else:
+    print('No Yes')
