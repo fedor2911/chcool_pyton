@@ -1,0 +1,19 @@
+a, b = map(int,input().split())
+n = a
+m = b
+s1 = 0
+s2 = 0
+while a > 0:
+    s1 = s1 +a%10
+    a = a//10
+ 
+while b >0:
+    s2 = s2+ b%10
+    b = b//10
+ 
+if s1>s2:
+    print(n)
+elif s2 >  s1:
+    print(m)
+else:
+    print('0')

@@ -1,0 +1,7 @@
+a = int(input())
+d = a
+while a != 0 :
+    a = int(input())
+    if a < d and a!=0:
+        d = a
+print(d)

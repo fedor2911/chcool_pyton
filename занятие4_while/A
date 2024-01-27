@@ -1,0 +1,6 @@
+a = int(input())
+g =0
+while(a != 0):
+    a = int(input())
+    g += 1
+print(g)
