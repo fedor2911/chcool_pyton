@@ -1,0 +1,8 @@
+s = input()
+ 
+a = s.rfind(' ')
+f = s[a+1:]
+b = s.find(' ')
+o = s[b+1:b+2]
+n = s[0]
+print(f,' ', n, '.', o, '.', sep = '')

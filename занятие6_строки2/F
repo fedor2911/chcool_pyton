@@ -1,0 +1,4 @@
+a = input('')
+max_a = max(a.split(), key=len)
+print(max_a)
+print(len(max_a))

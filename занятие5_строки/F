@@ -1,0 +1,10 @@
+a = input()
+b = input()
+c = input()
+ 
+if (a == b and a!=c and b!=c) or (a != b and a==c and b!=c) or (a != b and a!=c and b==c):
+    print('2')
+elif a == b and a==c and b==c:
+    print('3')
+else:
+    print("0")

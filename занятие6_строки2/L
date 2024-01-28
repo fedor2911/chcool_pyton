@@ -1,0 +1,9 @@
+import string
+s = input()
+n = int(input())
+alpha = string.ascii_uppercase
+for l in s:
+    k = alpha.index(l)
+    k -= n
+    s = s.replace(l, alpha[k])
+print(s)

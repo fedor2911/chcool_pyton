@@ -1,0 +1,5 @@
+n = input()
+s1 = n[:len(n)//2+len(n)%2]
+s2 = n[len(n)//2+len(n)%2:]
+g = s2+s1
+print(g)
