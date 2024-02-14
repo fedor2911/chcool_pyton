@@ -1,1 +1,13 @@
 K
+m = int(input())
+a = list(map(int,input().split()))
+d = 0
+e = []
+ 
+for i in range(0, len(a)):
+    if a[i] not in e:
+        d+=1
+        e.append(a[i])
+    
+print(d) 
+print(*a)
