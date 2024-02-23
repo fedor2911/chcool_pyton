@@ -1,5 +1,5 @@
 m = int(input())
-if (m>3) or (m == 12):
+if (m<3) or (m == 12):
     print('winter')
 elif (m>2) and (m<6):
     print('spring')
