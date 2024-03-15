@@ -1,0 +1,8 @@
+a = input()
+a = int(a)
+if a > 5:
+    b = a +5
+else:
+    b = a -5 
+   
+print(b)
