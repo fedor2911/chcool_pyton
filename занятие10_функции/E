@@ -1,0 +1,12 @@
+a, b, c, d = map(int,input().split())
+ 
+def ws (a, b, c, d):
+    if max(a, b, c, d) == a:
+        return 1
+    if max(a, b, c, d) == b:
+        return 2
+    if max(a, b, c, d) == c:
+        return 3
+    if max(a, b, c, d) == d:
+        return 4
+print(ws(a, b, c, d))

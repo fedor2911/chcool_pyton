@@ -1,0 +1,9 @@
+a = int(input())
+ 
+def ws (a):
+    for f in range(2, a+1):
+        if a % f == 0:
+            return f
+ 
+ 
+print(ws(a))

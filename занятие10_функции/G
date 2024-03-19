@@ -1,0 +1,9 @@
+a = int(input())
+ 
+def ws (a):
+    f = list(map(int, input().split()))
+    w = sum(f)/a
+    return w
+ 
+ 
+print(ws(a))

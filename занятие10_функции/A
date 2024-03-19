@@ -1,0 +1,11 @@
+a = int(input())
+s = int(input())
+def bf (a, s):
+    if a> s:
+        return a
+    else:
+        return s
+ 
+ 
+ 
+print(bf(a,s))
