@@ -8,5 +8,4 @@ def s (a, b, c):
     elif b < a < c or c < a < b:
         return a
     
-    
 print(s(a,b,c))
